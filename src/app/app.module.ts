@@ -54,6 +54,8 @@ import { ToastrModule } from 'ngx-toastr';
     // Forms
     FormsModule,
     ReactiveFormsModule,
+    // Requisições http
+    HttpClientModule,
     MatButtonModule,
     MatTableModule,
     MatFormFieldModule,
