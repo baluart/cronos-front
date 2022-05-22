@@ -45,9 +45,14 @@ import { LoginComponent } from './components/login/login.component';
     LoginComponent
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    
+    // Forms
+    FormsModule,
+    ReactiveFormsModule,
     MatButtonModule,
     MatTableModule,
     MatFormFieldModule,
