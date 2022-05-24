@@ -1,4 +1,14 @@
 <div class="container">
+
+
+      <h2>Lista de Tecnicos</h2>
+          <button mat-raised-button color="warn">Novo Tecnico </button>
+        <mat-form-field appearance="standard">
+          <mat-label>Buscar</mat-label>
+          <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+        </mat-form-field>
+
+
     <div class="mat-elevation-z8">
         <table mat-table [dataSource]="dataSource">
       
