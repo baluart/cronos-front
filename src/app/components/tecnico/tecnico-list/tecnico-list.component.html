@@ -2,7 +2,7 @@
 
 
       <h2>Lista de Tecnicos</h2>
-          <button mat-raised-button color="warn">Novo Tecnico </button>
+          <button routerLink="create" mat-raised-button color="warn">Novo Tecnico </button>
         <mat-form-field appearance="standard">
           <mat-label>Buscar</mat-label>
           <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
