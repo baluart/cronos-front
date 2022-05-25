@@ -23,7 +23,7 @@ export class TecnicoCreateComponent implements OnInit {
     email:'',
     senha:'',
     perfis: [],
-    dataCriacao:''
+    dataCriacao: Date
   }
   nome: FormControl = new FormControl(null,Validators.minLength(3));
   cpf: FormControl = new FormControl(null,Validators.minLength(11));
