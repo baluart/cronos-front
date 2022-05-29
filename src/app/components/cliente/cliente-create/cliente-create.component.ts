@@ -60,7 +60,7 @@ export class ClienteCreateComponent implements OnInit {
       this.cliente.perfis.push(perfil);
       console.log(this.cliente.perfis);
         if(this.cliente.perfis.includes(perfil)){
-          this.cliente.perfis.splice(this.cliente.perfis.indexOf(perfil),1);
+          this.cliente.perfis.splice(this.cliente.perfis.indexOf(perfil),0);
         } else{
           this.cliente.perfis.push(perfil);
         }
