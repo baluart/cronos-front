@@ -2,7 +2,7 @@
 
 
     <h2>Listando chamados</h2>
-        <button  class="mat-elevation-z8"   mat-raised-button color="warn">Novo chamado </button>
+        <button  routerLink="create" class="mat-elevation-z8"   mat-raised-button color="warn">Novo chamado </button>
       <mat-form-field appearance="standard">
         <mat-label>Buscar</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>

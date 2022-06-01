@@ -1,0 +1,62 @@
+<div class="container mat-elevation-z8">
+    <h1 class="full-width">Chamado</h1>
+    <img class="full-width" src="assets/img/chamado-create.svg" alt="C R O N O S">
+
+    <form class="form">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Titulo do chamado</mat-label>
+          <input matInput placeholder="Digite o titulo do chamado" >
+        </mat-form-field>
+      </form>
+
+      <div class="status-prioridade">
+        <mat-form-field appearance="outline">
+            <mat-label>Selecione um Status</mat-label>
+            <mat-select>
+              <mat-option value="0">ABERTO</mat-option>
+              <mat-option value="1">ANDAMENTO</mat-option>
+              <mat-option value="2">ENCERRADO</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Selecione uma Prioridade</mat-label>
+            <mat-select>
+              <mat-option value="0">BAIXA</mat-option>
+              <mat-option value="1">MÉDIA</mat-option>
+              <mat-option value="2">ALTA</mat-option>
+            </mat-select>
+          </mat-form-field>
+      </div>
+
+      <div class="tecnico">
+        <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Selecione um técnico</mat-label>
+            <mat-select>
+              <mat-option value="0">Lucas Nunes</mat-option>
+            </mat-select>
+          </mat-form-field>
+      </div>
+
+      <div class="cliente">
+        <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Selecione um Cliente</mat-label>
+            <mat-select>
+              <mat-option value="0">Esterr</mat-option>
+            </mat-select>
+          </mat-form-field>
+      </div>
+
+      <form class="form">  
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>DESCRIÇÃO DA TAREFA</mat-label>
+          <textarea  matInput placeholder="Ex. Favor solicito a troca da bateria"></textarea>
+        </mat-form-field>
+      </form>
+
+      <button class="full-width mat-elevation-z8" mat-raised-button color="warn">ADICIONAR</button>
+      <button class="full-width mat-elevation-z8" mat-stroked-button color="warn">CANCELAR</button>
+
+
+</div>
+
