@@ -60,7 +60,7 @@ export class TecnicoCreateComponent implements OnInit {
       this.tecnico.perfis.push(perfil);
       console.log(this.tecnico.perfis);
         if(this.tecnico.perfis.includes(perfil)){
-          this.tecnico.perfis.splice(this.tecnico.perfis.indexOf(perfil),1);
+          this.tecnico.perfis.splice(this.tecnico.perfis.indexOf(perfil),0);
         } else{
           this.tecnico.perfis.push(perfil);
         }
